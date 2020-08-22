@@ -1,0 +1,78 @@
+.Header {
+    min-height: 100%;
+    max-width: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    overflow: hidden;
+    background-color: #222222;
+    border-bottom-left-radius: 100% 10%;
+
+    border-color: blue solid 20px;
+}
+
+.InfoBoard{
+    padding: 50px;
+    padding-top: -20px;
+
+    flex: 1 1 auto;
+}
+
+.PersonalPicture {
+    width: 35%;
+    height: 100%;
+
+    flex: 1 1;
+}
+
+.Name{
+    font-weight: 800;
+    font-size: calc(0.5rem + 4.5vw);
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+
+}
+
+.Profession {
+    font-size: calc(0.3rem + 2.55vw); 
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: turquoise;
+}
+
+.Message {
+    max-width: 465px;
+    padding: 20px 20px 20px 0;
+    
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: calc(0.55rem + 0.8vw); 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Logos {
+    gap: 20px;
+    display: grid;
+    width: min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.LinkLogo {
+    border: 0;
+    border-radius: 100%;
+    background-size: cover;
+
+    width: calc(45px + 2vw); 
+    height: calc(45px + 2vw);
+    background-color: inherit;
+    box-shadow: 0 0 10px;
+
+    transition-duration: 0.2s;
+}
+
+.LinkLogo:hover {
+    width: calc(50px + 2vw); 
+    height: calc(50px + 2vw);
+}
+
