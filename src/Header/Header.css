@@ -64,7 +64,7 @@
     width: calc(45px + 2vw); 
     height: calc(45px + 2vw);
     background-color: inherit;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 5px 20px;
 
     transition-duration: 0.2s;
 }
@@ -72,5 +72,7 @@
 .LinkLogo:hover {
     width: calc(50px + 2vw); 
     height: calc(50px + 2vw);
+    background-color: rgba(0, 225, 255, 0.5);
+    background-blend-mode: screen;
 }
 
